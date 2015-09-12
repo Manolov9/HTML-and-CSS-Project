@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body{ 
+	background: -moz-linear-gradient(center top, #30475d 0px, #1c3346 100%) no-repeat;
+}
+
+a.button {
+
+	width: 200px;
+	height: 50px;
+	background: #8C9C9A;
+	display: block;
+	position: relative;
+	margin: 50px 0 0 700px;
+	overflow: hidden;
+	border: 1px solid #333333;
+	color: white;
+	text-decoration: none;
+	
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
+	box-shadow: inset 0px 1px 1px 0px rgba(255,255,255,.4);
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+		position: absolute;
+	top: 16px;
+	left: 65px;
+	font: 15px Arial;
+
+}
+a.button span.text {
+	position: absolute;
+	top: 16px;
+	left: 65px;
+	font: 15px Arial;
+}
+
+a.button span.shine {
+	content: '';
+	position: absolute;
+	height: 400px;
+	width: 20px;
+	background: white;
+	top: -80px;
+	left: -20px;
+	display: block;
+	opacity: 0.8;
+	
+		-webkit-transform: rotate(-45deg);	
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+
+	
+	-webkit-box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 1px 10px 0px rgba(255,255,255,.4), 0px 3px 3px 0px rgba(0,0,0,0.4);
+	
+		-webkit-animation: myfirst 5s linear infinite;
+
+
+	
+	animation: myfirst 5s linear infinite;
+
+	}
+	
+@keyframes myfirst {
+0% {left:0px;}
+10% {left:0px;}
+20%,45% {left:0px;}
+55% {left:350px;}
+60%,100% {left:350px;}
+
+}
+@-webkit-keyframes myfirst {
+0% {left:0px;}
+10% {left:0px;}
+20% {left:0px;}
+30% {left:0px;}
+45% {left:0px;}
+55% {left:350px;}
+60% {left:350px;}
+70% {left:350px;}
+80% {left:350px;}
+90% {left:350px;}
+100% {left:350px;}
+
+}
+</style>
+<body>
+  <a href="#" class="button">
+	<span class="shine"></span>
+	Hover Me
+</a>
+  </body>
+</html>
+
+
